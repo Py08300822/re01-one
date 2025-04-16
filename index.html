@@ -1,50 +1,99 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-
-    <title>不知道取什么名字</title>
-  </head>
-    <style>
-      .h{
-        position: relative; top: 45px; left: 56px; ;
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+      body{
+        margin: 0;
+        height: 100vh;
+        background-color: rgb(223, 215, 211);
       }
-    </style>
-  <body>
-    <div style="
-        background-color: #f1f1f1;
+      .flex{
+        display: flex;
+      }
+      .white{
+         background-color: rgba(255, 255, 255, 0.801);
+      }
+      .flex1{
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .mg8{
+        margin: 8px;
+      }
+      .mg8r{
+        margin-right: 8px;
+      }
+      .mg8t{
+        margin-top: 8px;
+      }
+      .yinying{
+        box-shadow: rgba(135, 144, 146, 0.925) 5px 2px 8px 0px;
+      }
+      .kuang{
+        border: 1px solid rgb(170, 166, 166);
+      }
+      .daohang{
+        padding: 20px 20px;
+        border-bottom: 1px solid rgb(170, 166, 166);
+        font-size: 15px;
+        color: rgb(161, 161, 160);
         text-align: center;
-        padding: 20px;
-        ">
-      <img src="img/ganji.png" alt="xxx" width="150px" height="150px" />
+      }
+  </style>
+</head>
+<body class="flex">
+    <div style="width: 200px;" class="white yinying kuang">   
+        <div class="flex" style="padding: 10px; align-items: flex-end ; justify-content: center; border-bottom: 1px solid;">
+          <img src="img/ganji.png" alt="ganji" width="80px" height="80px">
+          <div style="font-size: 10px;"><h1>甘吉</h1></div>
+        </div> 
+        <div class="flex1">
+          <div class="daohang">目前没有做点击逻辑</div>
+          <div class="daohang">目前没有做点击逻辑</div>
+          <div class="daohang">目前没有做点击逻辑</div>
+          <div class="daohang">目前没有做点击逻辑</div>
+          <div class="daohang">目前没有做点击逻辑</div>
+          <div class="daohang">目前没有做点击逻辑</div>
+          <div class="daohang">目前没有做点击逻辑</div>
+          <div class="daohang">目前没有做点击逻辑</div>
+          <div class="daohang">目前没有做点击逻辑</div>
+          <div class="daohang">目前没有做点击逻辑</div>
+          <div class="daohang">目前没有做点击逻辑</div>
+          <div class="daohang">目前没有做点击逻辑</div>
+          <p style="text-align: center;">smjgxyjq</p>
+          <p style="text-align: center;"><a href="https://poki.com">不要点我</a></p>
+        </div>
     </div>
-    <div style="
-        max-width: 760px;
-        margin: 30px auto;
-        padding: 15px;
-        line-height: 1.7;
-        color: burlywood;
-    ">
-        <img src="img/anni.png" alt="anni" width="60" class="h">
-        <h1>我的<a style="text-decoration: underline; color: rgb(228, 135, 135);">猫咪</a>脾气特别暴</h1>
-        <h2>这是第二标题</h2>
-        <p>目前没到想到要写点什么</p>
-        <p>目没到想到要写点什么</p>
-        <p>目前没到想到要写点什么</p>
-        <p>目前没到想到要写点什么</p>
-        <p>目前没到想到要写点什么</p>
-        <p>目前没到想到要写点什么</p>
+    <div class="flex1 flex column">   
+        <div style="height: 100px;" class="white yinying kuang">   
+        </div>
+        <div class="flex1 flex" style="overflow: auto;">   
+            <div style="flex: 3;" class="flex column mg8">  
+                <div class="flex">
+                  <div style="height: 150px;" class="flex1 white mg8r yinying"></div>
+                  <div style="height: 150px;" class="flex1 white mg8r yinying"></div>
+                  <div style="height: 150px;" class="flex1 white mg8r yinying"></div>
+                  <div style="height: 150px;" class="flex1 white mg8r yinying"></div>
+                </div>
+                <div class="flex column">
+                    <div style="height: 200px;" class="mg8t white yinying"></div>
+                    <div style="height: 200px;" class="mg8t white yinying"></div>
+                    <div style="height: 200px;" class="mg8t white yinying"></div>
+                    <div style="height: 200px;" class="mg8t white yinying"></div>
+                    <div style="height: 200px;" class="mg8t white yinying"></div>
+                    <div style="height: 200px;" class="mg8t white yinying"></div>
+                </div>
+            </div> 
+            <div style="flex: 1;" class="flex column mg8r mg8t">  
+                <div style="height: 200px;" class="white yinying"></div>
+                <div style="height: 400px;" class="mg8t white yinying"></div>
+            </div> 
+        </div>
     </div>
-
-    <div style="
-    background-color: #f1f1f1;
-    text-align: center;
-    padding: 20px;
-    font-size: 12px;
-    ">
-    <p>我的网站</p>
-    <p>smjgxyjq</p>
-    <a href="https://id5.163.com/index.html">游戏推荐点击这里</a>
-    </div>
-  </body>
-</html>
+</body>
+</html>  
